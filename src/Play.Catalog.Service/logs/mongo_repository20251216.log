@@ -1,0 +1,4 @@
+2025-12-16 23:19:53.851 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-16 23:19:54.827 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-16 23:24:22.952 -05:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-12-16 23:24:51.315 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.

@@ -1,0 +1,75 @@
+2025-11-12 21:28:38.895 -05:00 [INF] Filtering by GUID: "2de4b96e-5ad1-4434-ae8a-3a3104884521"
+2025-11-12 21:28:38.943 -05:00 [INF] Filter MongoDB.Driver.SimpleFilterDefinition`2[Play.Catalog.Service.Entities.Item,System.String]
+2025-11-12 21:28:39.138 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 21:33:41.816 -05:00 [INF] Filtering by GUID: "2de4b96e-5ad1-4434-ae8a-3a3104884521"
+2025-11-12 21:33:41.858 -05:00 [INF] Rendered filter: { "_id" : "2de4b96e-5ad1-4434-ae8a-3a3104884521" }
+2025-11-12 21:33:42.074 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 21:42:52.335 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 21:45:49.232 -05:00 [INF] Rendered filter: { "_id" : "2de4b96e-5ad1-4434-ae8a-3a3104884521" }
+2025-11-12 21:45:49.456 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 21:49:12.349 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 21:49:12.603 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 21:53:38.053 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 21:53:38.292 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 21:56:25.900 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 21:56:26.107 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:03:39.321 -05:00 [INF] Rendered filter: { "_id" : "2de4b96e-5ad1-4434-ae8a-3a3104884521" }
+2025-11-12 22:03:39.617 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:12:14.865 -05:00 [INF] Rendered filter: { "_id" : "2de4b96e-5ad1-4434-ae8a-3a3104884521" }
+2025-11-12 22:12:15.126 -05:00 [INF] Raw BSON result: null
+2025-11-12 22:12:15.152 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:14:55.390 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Play.Catalog.Service.Entities.Item, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-12 22:26:50.876 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 22:26:51.117 -05:00 [INF] Raw BSON result: null
+2025-11-12 22:26:51.131 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:29:51.868 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 22:29:52.053 -05:00 [INF] Raw BSON result: null
+2025-11-12 22:29:52.076 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:35:12.152 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 22:35:12.154 -05:00 [INF] Raw BSON result: null
+2025-11-12 22:35:12.156 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:40:31.713 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Play.Catalog.Service.Entities.Item, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-12 22:40:36.116 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 22:40:36.145 -05:00 [INF] Raw BSON result: null
+2025-11-12 22:40:36.152 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:43:08.290 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 22:43:08.520 -05:00 [INF] Raw BSON result: null
+2025-11-12 22:43:08.536 -05:00 [INF] MinimalItem result: null
+2025-11-12 22:43:08.551 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 22:49:13.432 -05:00 [INF] Querying GUID: "2de4b96e-5ad1-4434-ae8a-3a3104884521"
+2025-11-12 22:49:13.466 -05:00 [INF] Base64: brnkLdFaNESuijoxBIhFIQ==
+2025-11-12 22:49:13.484 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 22:49:13.693 -05:00 [INF] Raw BSON result: null
+2025-11-12 22:49:13.709 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 23:01:20.237 -05:00 [INF] GUID base64: brnkLdFaNESuijoxBIhFIQ==
+2025-11-12 23:01:20.356 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 23:01:20.573 -05:00 [INF] Raw BSON result: null
+2025-11-12 23:01:20.600 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 23:05:01.400 -05:00 [INF] RFC4122 base64: LeS5blrRRDSuijoxBIhFIQ==
+2025-11-12 23:05:01.485 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 23:05:01.664 -05:00 [INF] Raw BSON result: null
+2025-11-12 23:05:01.691 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 23:07:14.399 -05:00 [INF] RFC4122 base64: LeS5blrRRDSuijoxBIhFIQ==
+2025-11-12 23:07:14.515 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 23:07:14.765 -05:00 [INF] Raw BSON result: null
+2025-11-12 23:07:14.790 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 23:11:06.175 -05:00 [INF] Stored GUID: "2de4b96e-5ad1-4434-ae8a-3a3104884521"
+2025-11-12 23:11:06.217 -05:00 [INF] Stored base64: brnkLdFaNESuijoxBIhFIQ==
+2025-11-12 23:11:06.227 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 23:11:06.247 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 23:22:59.446 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 23:22:59.653 -05:00 [INF] Raw BSON result: null
+2025-11-12 23:22:59.669 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 23:23:53.451 -05:00 [INF] Rendered filter: { "_id" : CSUUID("2de4b96e-5ad1-4434-ae8a-3a3104884521") }
+2025-11-12 23:24:35.761 -05:00 [INF] Raw BSON result: null
+2025-11-12 23:24:35.824 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-11-12 23:28:10.932 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Play.Catalog.Service.Entities.Item, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-12 23:28:31.005 -05:00 [INF] Rendered filter: { "_id" : CSUUID("46f41bc1-3784-4b7e-980c-ca5182df7724") }
+2025-11-12 23:28:31.023 -05:00 [INF] Raw BSON result: { "_id" : CSUUID("46f41bc1-3784-4b7e-980c-ca5182df7724"), "Name" : "Test 1", "Description" : "description of test 1", "Price" : "2356", "CreatedDate" : "2025-11-13T04:28:24.5785891+00:00" }
+2025-11-12 23:28:31.052 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-12 23:28:36.801 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Play.Catalog.Service.Entities.Item, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-12 23:28:48.087 -05:00 [INF] Rendered filter: { "_id" : CSUUID("46f41bc1-3784-4b7e-980c-ca5182df7724") }
+2025-11-12 23:28:48.093 -05:00 [INF] Raw BSON result: { "_id" : CSUUID("46f41bc1-3784-4b7e-980c-ca5182df7724"), "Name" : "Test 1", "Description" : "description of test 1", "Price" : "2356", "CreatedDate" : "2025-11-13T04:28:24.5785891+00:00" }
+2025-11-12 23:28:48.096 -05:00 [INF] Executing ObjectResult, writing value of type 'Play.Catalog.Service.DTOs.ItemDto'.
+2025-11-12 23:33:53.797 -05:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Play.Catalog.Service.Entities.Item, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-12 23:33:57.135 -05:00 [INF] Executing ObjectResult, writing value of type 'Play.Catalog.Service.DTOs.ItemDto'.

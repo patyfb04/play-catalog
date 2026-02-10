@@ -1,0 +1,29 @@
+2025-11-21 21:09:42.261 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 21:10:39.337 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 21:11:18.366 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 21:40:11.410 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 21:41:13.920 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 21:42:01.779 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 21:42:23.587 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 21:42:49.584 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-11-21 21:42:56.199 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-21 21:50:41.397 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 21:54:46.809 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 22:06:12.806 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 22:06:58.734 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 22:07:13.762 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 22:07:21.525 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 22:12:58.917 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-21 22:13:35.427 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-21 22:14:48.152 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 22:15:10.521 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-21 22:16:29.956 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 22:16:48.675 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 22:17:46.226 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-21 22:25:18.551 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 22:25:24.676 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 22:25:38.254 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 22:26:40.269 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-11-21 22:42:52.877 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-11-21 22:42:56.636 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-21 22:43:57.919 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204

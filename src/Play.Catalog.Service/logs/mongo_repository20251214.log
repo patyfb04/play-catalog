@@ -1,0 +1,5 @@
+2025-12-14 18:56:14.991 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-14 18:57:12.357 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-12-14 18:57:44.089 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-12-14 18:58:01.833 -05:00 [INF] Executing CreatedAtRouteResult, writing value of type 'Play.Catalog.Service.Entities.Item'.
+2025-12-14 18:58:08.219 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.

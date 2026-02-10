@@ -1,0 +1,28 @@
+2025-12-11 22:49:30.526 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 22:49:52.272 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 22:49:52.336 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 22:49:56.564 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 22:49:56.610 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 22:50:01.531 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 22:50:01.582 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:21:35.632 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:21:41.615 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 23:21:41.673 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:29:49.224 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:29:57.724 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 23:29:57.784 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:32:32.786 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:32:37.408 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 23:32:37.453 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:38:38.746 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:38:48.048 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 23:38:48.102 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:41:45.533 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:41:49.945 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 23:41:49.999 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:49:19.700 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:49:24.436 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 23:49:24.482 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:51:00.090 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-11 23:51:04.689 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-12-11 23:51:04.767 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Play.Catalog.Service.DTOs.ItemDto, Play.Catalog.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
