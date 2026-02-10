@@ -10,7 +10,6 @@ WORKDIR /src
 
 # Copy nuget.config and packages folder
 COPY nuget.config ./
-COPY packages ./packages
 
 COPY ["Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj", "Play.Catalog/src/Play.Catalog.Service/"]
 COPY ["Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj", "Play.Catalog/src/Play.Catalog.Contracts/"]
