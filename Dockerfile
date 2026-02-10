@@ -21,6 +21,7 @@ COPY src/Play.Catalog.Service/Play.Catalog.Service.csproj src/Play.Catalog.Servi
 COPY src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj src/Play.Catalog.Contracts/
 
 # Add GitHub Packages feed explicitly (fixes 401 inside ACR)
+RUN dotnet nuget remove source github || true
 RUN dotnet nuget add source \
     --username patyfb04 \
     --password $GITHUB_TOKEN \
