@@ -22,15 +22,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Authenticate to GitHub Packages
-        run: |
-          dotnet nuget add source \
-            --username $GITHUB_ACTOR \
-            --password ${{ secrets.PAT_GITHUB_TOKEN }} \
-            --store-password-in-clear-text \
-            --name github \
-            https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
-
       - name: Azure Login
         uses: azure/login@v2
         with:
@@ -39,10 +30,12 @@ jobs:
       - name: Build and Push Docker Image to ACR
         run: |
           IMAGE_TAG=$(echo $GITHUB_SHA | cut -c1-7)
+
           az acr build \
             --registry $ACR_NAME \
             --image $IMAGE_NAME:latest \
             --image $IMAGE_NAME:$IMAGE_TAG \
+            --build-arg GITHUB_TOKEN=${{ secrets.PAT_GITHUB_TOKEN }} \
             .
 
       - name: Get AKS Credentials
