@@ -20,6 +20,14 @@ COPY nuget.config ./
 COPY src/Play.Catalog.Service/Play.Catalog.Service.csproj src/Play.Catalog.Service/
 COPY src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj src/Play.Catalog.Contracts/
 
+# Add GitHub Packages feed explicitly (fixes 401 inside ACR)
+RUN dotnet nuget add source \
+    --username patyfb04 \
+    --password $GITHUB_TOKEN \
+    --store-password-in-clear-text \
+    --name github \
+    https://nuget.pkg.github.com/patyfb04/index.json
+
 # Restore
 RUN dotnet restore src/Play.Catalog.Service/Play.Catalog.Service.csproj
 
