@@ -12,6 +12,7 @@ spec:
       labels:
         app: play-catalog
     spec:
+      serviceAccountName: play-catalog-sa
       containers:
         - name: play-catalog
           image: playeconomyapp.azurecr.io/play-catalog:IMAGE_TAG_PLACEHOLDER
