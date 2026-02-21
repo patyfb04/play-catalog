@@ -15,7 +15,7 @@ spec:
       serviceAccountName: play-catalog-sa
       containers:
         - name: play-catalog
-          image: playeconomyapp.azurecr.io/play-catalog:v2
+          image: playeconomyapp.azurecr.io/play-catalog:v4
           ports:
             - containerPort: 80
           env:

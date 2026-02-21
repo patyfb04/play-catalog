@@ -17,10 +17,10 @@ WORKDIR /src
 COPY nuget.config ./
 
 # Copy csproj files
-COPY src/Play.Catalog.Service/Play.Catalog.Service.csproj src/Play.Catalog.Service/
-COPY src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj src/Play.Catalog.Contracts/
+COPY src/Play.Catalog.Service/Play.Catalog.Service.csproj Play.Catalog.Service/
+COPY src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj Play.Catalog.Contracts/
 
-# Add GitHub Packages feed explicitly (fixes 401 inside ACR)
+# Add GitHub Packages feed
 RUN dotnet nuget remove source github || true
 RUN dotnet nuget add source \
     --username patyfb04 \
@@ -30,14 +30,14 @@ RUN dotnet nuget add source \
     https://nuget.pkg.github.com/patyfb04/index.json
 
 # Restore
-RUN dotnet restore src/Play.Catalog.Service/Play.Catalog.Service.csproj
+RUN dotnet restore Play.Catalog.Service/Play.Catalog.Service.csproj
 
 # Copy the rest of the source
-COPY src/Play.Catalog.Service/ src/Play.Catalog.Service/
-COPY src/Play.Catalog.Contracts/ src/Play.Catalog.Contracts/
+COPY src/Play.Catalog.Service/ Play.Catalog.Service/
+COPY src/Play.Catalog.Contracts/ Play.Catalog.Contracts/
 
 # Build
-WORKDIR /src/src/Play.Catalog.Service
+WORKDIR /src/Play.Catalog.Service
 RUN dotnet build "Play.Catalog.Service.csproj" -c $configuration -o /app/build
 
 # Publish
