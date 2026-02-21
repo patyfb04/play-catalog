@@ -11,7 +11,7 @@ env:
   CONTAINER_APP_NAME: play-catalog
   RESOURCE_GROUP: play-rg
   AZURE_REGION: eastus
-  AKS_CLUSTER: playrg-kube-cluster
+  AKS_CLUSTER: playrg-kube-cluster-ca
   K8S_MANIFEST_PATH: k8s
 
 jobs:
