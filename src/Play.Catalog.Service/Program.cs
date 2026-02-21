@@ -35,6 +35,9 @@ builder.Services.Configure<CosmosDbSettings>(
 builder.Services.Configure<ServiceSettings>(
     builder.Configuration.GetSection(nameof(ServiceSettings)));
 
+builder.Services.Configure<ServiceBusSettings>(
+    builder.Configuration.GetSection(nameof(ServiceBusSettings)));
+
 builder.Services.Configure<MassTransitSettings>(
     builder.Configuration.GetSection(nameof(MassTransitSettings)));
 

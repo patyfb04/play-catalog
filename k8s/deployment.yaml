@@ -15,7 +15,7 @@ spec:
       serviceAccountName: play-catalog-sa
       containers:
         - name: play-catalog
-          image: playeconomyapp.azurecr.io/play-catalog:latest
+          image: playeconomyapp.azurecr.io/play-catalog:v2
           ports:
             - containerPort: 80
           env:
@@ -31,8 +31,8 @@ spec:
               value: "Catalog"
 
             # Service Bus namespace (Managed Identity)
-            - name: AzureServiceBusSettings__FullyQualifiedNamespace
-              value: "playeconomy-servicebus.servicebus.windows.net"
+            - name: ServiceBusSettings__FullyQualifiedNamespace
+              value: "sb://playeconomy-servicebus.servicebus.windows.net/"
 
             # MassTransit retry settings (optional but recommended)
             - name: MassTransitSettings__Retries
