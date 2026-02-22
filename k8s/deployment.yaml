@@ -15,10 +15,21 @@ spec:
       serviceAccountName: play-catalog-sa
       containers:
         - name: play-catalog
-          image: playeconomyapp.azurecr.io/play-catalog:v4
+          image: playeconomyapp.azurecr.io/play-catalog:v5
+
+          # IMPORTANT: Clear any previous overrides like "sleep 3600"
+          command: []
+          args: []
+
+          # Your app listens on port 5000, not 80
           ports:
-            - containerPort: 80
+            - containerPort: 5000
+
           env:
+            # Force ASP.NET Core to listen on port 5000
+            - name: ASPNETCORE_URLS
+              value: "http://+:5000"
+
             # Cosmos DB connection string from Kubernetes Secret
             - name: CosmosDbSettings__ConnectionString
               valueFrom:
@@ -34,7 +45,7 @@ spec:
             - name: ServiceBusSettings__FullyQualifiedNamespace
               value: "sb://playeconomy-servicebus.servicebus.windows.net/"
 
-            # MassTransit retry settings (optional but recommended)
+            # MassTransit retry settings
             - name: MassTransitSettings__Retries
               value: "3"
             - name: MassTransitSettings__TimeIntervalInSeconds
