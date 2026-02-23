@@ -15,7 +15,7 @@ spec:
       serviceAccountName: play-catalog-sa
       containers:
         - name: play-catalog
-          image: playeconomyapp.azurecr.io/play-catalog:v5
+          image: playeconomyapp.azurecr.io/play-catalog:v16
 
           # IMPORTANT: Clear any previous overrides like "sleep 3600"
           command: []
@@ -43,7 +43,7 @@ spec:
 
             # Service Bus namespace (Managed Identity)
             - name: ServiceBusSettings__FullyQualifiedNamespace
-              value: "sb://playeconomy-servicebus.servicebus.windows.net/"
+              value: "sb://playeconomy-servicebus.servicebus.windows.net"
 
             # MassTransit retry settings
             - name: MassTransitSettings__Retries
@@ -53,7 +53,7 @@ spec:
 
             # Identity service URL (internal)
             - name: ServiceSettings__Authority
-              value: "http://play-identity"
+              value: "https://play-identity"
 
             # Frontend origin (internal)
             - name: AllowedOrigin

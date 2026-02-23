@@ -13,12 +13,10 @@ ENV NUGET_AUTH_TOKEN=$GITHUB_TOKEN
 
 WORKDIR /src
 
-# Copy nuget.config (for GitHub Packages)
 COPY nuget.config ./
 
-# Copy csproj files
-COPY src/Play.Catalog.Service/Play.Catalog.Service.csproj Play.Catalog.Service/
-COPY src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj Play.Catalog.Contracts/
+# Copy entire src folder preserving structure
+COPY src/ ./src/
 
 # Add GitHub Packages feed
 RUN dotnet nuget remove source github || true
@@ -30,14 +28,10 @@ RUN dotnet nuget add source \
     https://nuget.pkg.github.com/patyfb04/index.json
 
 # Restore
-RUN dotnet restore Play.Catalog.Service/Play.Catalog.Service.csproj
-
-# Copy the rest of the source
-COPY src/Play.Catalog.Service/ Play.Catalog.Service/
-COPY src/Play.Catalog.Contracts/ Play.Catalog.Contracts/
+RUN dotnet restore src/Play.Catalog.Service/Play.Catalog.Service.csproj
 
 # Build
-WORKDIR /src/Play.Catalog.Service
+WORKDIR /src/src/Play.Catalog.Service
 RUN dotnet build "Play.Catalog.Service.csproj" -c $configuration -o /app/build
 
 # Publish

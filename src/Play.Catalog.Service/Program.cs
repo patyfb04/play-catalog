@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.OpenApi.Models;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
@@ -28,6 +30,14 @@ Log.Logger = new LoggerConfiguration()
              .CreateLogger();
 
 builder.Host.UseSerilog();
+
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+    .AddEnvironmentVariables()
+    .AddUserSecrets<Program>(optional: true);
+
+Console.WriteLine("DEBUG FQNS: '" + builder.Configuration["ServiceBusSettings:FullyQualifiedNamespace"] + "'");
 
 builder.Services.Configure<CosmosDbSettings>(
     builder.Configuration.GetSection(nameof(CosmosDbSettings)));
@@ -84,27 +94,29 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Play.Catalog.Service", Version = "v1" });
 });
 
-builder.Services.AddHealthChecks();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-    app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Play.Catalog.Service v1"));
+// Map a simple anonymous liveness endpoint first
+app.MapGet("/health", () => Results.Ok("Healthy"))
+   .AllowAnonymous();
 
-    app.UseCors(config => {
-        config.WithOrigins(builder.Configuration[AllowedOriginSetting])
-        .AllowAnyHeader()
-        .AllowAnyMethod();
-    });
-}
-else
+// If you want to skip HTTPS redirect for /health, add this BEFORE UseHttpsRedirection
+if (!app.Environment.IsDevelopment())
 {
+    app.Use(async (context, next) =>
+    {
+        if (context.Request.Path.StartsWithSegments("/health"))
+        {
+            await next();
+            return;
+        }
+
+        await next();
+    });
+
     app.UseHttpsRedirection();
 }
-
 
 app.UseRouting();
 
@@ -112,6 +124,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-app.MapHealthChecks("/health");
 
 app.Run();
