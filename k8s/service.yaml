@@ -1,12 +1,12 @@
 apiVersion: v1
-kind: LoadBalancer
+kind: Service
 metadata:
   name: play-catalog
 spec:
+  type: LoadBalancer
   selector:
     app: play-catalog
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 5000 # your container listens on 5000
-  type: ClusterIP
+      targetPort: 5000
