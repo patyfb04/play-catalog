@@ -37,8 +37,6 @@ builder.Configuration
     .AddEnvironmentVariables()
     .AddUserSecrets<Program>(optional: true);
 
-Console.WriteLine("DEBUG FQNS: '" + builder.Configuration["ServiceBusSettings:FullyQualifiedNamespace"] + "'");
-
 builder.Services.Configure<CosmosDbSettings>(
     builder.Configuration.GetSection(nameof(CosmosDbSettings)));
 
