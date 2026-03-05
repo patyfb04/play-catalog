@@ -19,7 +19,6 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 const string AllowedOriginSetting = "AllowedOrigin";
 
-BsonDefaults.GuidRepresentationMode = GuidRepresentationMode.V3;
 BsonSerializer.RegisterSerializer(typeof(Guid), new GuidSerializer(GuidRepresentation.Standard));
 BsonSerializer.RegisterSerializer(typeof(Guid?), new NullableSerializer<Guid>(new GuidSerializer(GuidRepresentation.Standard)));
 
